@@ -9,8 +9,8 @@ A collection of quick quant finance builds — made by a student who loves econo
 ### 1. 📉 Value at Risk (VaR) Calculator
 Measuring and comparing daily risk across different assets (Apple, Nvidia, US Bonds, Bitcoin) using two methods: Historical VaR and Parametric VaR. Highlights how extreme events like Bitcoin crashes expose the limits of purely mathematical risk models.
 
-### 2. 📈 Stock Price Prediction with Linear Regression
-Using historical price data and technical features (moving averages) to train a linear regression model that predicts the next day's closing price of a stock. Built with yfinance and scikit-learn.
+### 2. 📈 Stock Price Prediction
+Predicting Nvidia's next day closing price using three different models:  Linear Regression, Random Forest, and LSTM neural network. The project explores why model selection matters more than model complexity — Random Forest failed completely due to the extrapolation problem, while LSTM successfully followed the 2023 AI-driven price surge. Built with scikit-learn, TensorFlow/Keras, and yfinance. LSTM runs on Google Colab.
 
 ### 3. 🏦 Portfolio Optimization Tool
 Selecting a basket of stocks and finding the optimal capital allocation that maximizes the Sharpe Ratio. Visualizes the Efficient Frontier to show the risk/return tradeoff. Built with PyPortfolioOpt.
